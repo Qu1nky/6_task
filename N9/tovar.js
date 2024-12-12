@@ -1,10 +1,10 @@
-export let tovarObj = [
+let tovarObj = [
     {
         nameTovar: "Фитнес-браслет DEXP SB60",
         imgSrc: "1.jpg",
         corpus: "Черный",
         remen: "Черный",
-        displaySize: "0,96\"",
+        displaySize: "0.96\"",
         displayType:"OLED",
         bluetooth: true,
         OS:{
@@ -17,7 +17,7 @@ export let tovarObj = [
         imgSrc: "2.jpg",
         corpus: "Зеленый",
         remen: "Зеленый",
-        displaySize: "1,3\"",
+        displaySize: "1.3\"",
         displayType:"TFT (TN)",
         bluetooth: true,
         OS:{
@@ -30,7 +30,7 @@ export let tovarObj = [
         imgSrc: "3.jpg",
         corpus: "Черный",
         remen: "Розовый",
-        displaySize: "1,69\"",
+        displaySize: "1.69\"",
         displayType:"IPS",
         bluetooth: true,
         OS:{
@@ -38,4 +38,5 @@ export let tovarObj = [
             os2:"IOS 9",
         }
     }
-]
+];
+export { tovarObj };
