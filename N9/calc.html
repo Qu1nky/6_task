@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border=1>
+        <tr>
+         <td>Услуга</td>
+         <td>Цена за ед.</td>
+         <td>Количество</td>
+         <td>Итого за услугу</td>
+        </tr>
+        <tr>
+         <td>Черно-белая печать (лист)</td>
+         <td id="bwPrint"></td>
+         <td><input type="number" min=0 value=0></td>
+         <td id="sum0">0</td>
+        </tr>
+        <tr>
+         <td>Черно-белая копия (лист)</td>
+         <td id="bwCopy"></td>
+         <td><input type="number" min=0 value=0></td>
+         <td id="sum1">0</td>
+        </tr>
+        <tr>
+         <td>Цветная печать (лист)</td>
+         <td id="colorPrint"></td>
+         <td><input type="number" min=0 value=0></td>
+         <td id="sum2">0</td>
+        </tr>
+        <tr>
+         <td>Цветная копия (лист)</td>
+         <td id="colorCopy"></td>
+         <td><input type="number" min=0 value=0></td>
+         <td id="sum3">0</td>
+        </tr>
+        <tr>
+         <td>Фото 30х40</td>
+         <td id="photo3040"></td>
+         <td><input type="number" min=0 value=0></td>
+         <td id="sum4">0</td>
+        </tr>
+        <tr>
+         <td>Фото 50х60</td>
+         <td id="photo5060"></td>
+         <td><input type="number" min=0 value=0></td>
+         <td id="sum5">0</td>
+        </tr>
+        <tr>
+         <td colspan="3">ИТОГО</td>
+         <td id="itogo"></td>
+        </tr>
+     </table>
+     <script src="calc.js"></script>
+</body>
+</html>
