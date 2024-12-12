@@ -5,7 +5,7 @@ console.log(cards)
 cards.forEach(function(elem, index)
 {
     elem.querySelector("img").src = `img/${tovarObj[index].imgSrc}`;
-    elem.querySelector("h5").innerHTML = `<br>/${tovarObj[index].nameTovar}`;
+    elem.querySelector("h5").innerHTML = `<br>${tovarObj[index].nameTovar}`;
     let str = `<br>Корпус: ${tovarObj[index].corpus}
     <br>Ремешок: ${tovarObj[index].remen}
     <br>Размер дисплея ${tovarObj[index].displaySize}
